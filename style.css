@@ -1,0 +1,37 @@
+body {
+  font-family: helvetica;
+  color: #eee;
+  background-color: #343434;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+input {
+  width: 729px;
+  height: 25px;
+  margin-top: 15px;
+}
+button {
+  width: 60px;
+  height: 30px;
+  border: 0;
+  background-color: green;
+}
+.chat-container {
+  width: 800px;
+  margin: 0 auto;
+}
+.text-responses {
+  height: 400px;
+  width: 800px;
+  background-color: #eee;
+  overflow: scroll;
+}
+.bot-name {
+  color: red;
+}
+.response {
+  color: #222;
+  margin-left: 5px;
+}
